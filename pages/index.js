@@ -9,7 +9,7 @@ import {
 } from "react-icons/gi";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import avatar from "../public/avatar.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -69,7 +69,7 @@ export default function Home() {
               <a href="https://studevelopment.com/"><GiLinkedRings /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={avatar} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
